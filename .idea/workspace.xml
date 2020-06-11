@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0dd9f1de-d9d9-4bb1-9a1e-5d903b4de894" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZqBQG2WIOD0vkirhJQ1yrIQ9BP" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/VOCtest/VOC2007" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\AIoT\Projects\keras-yolo3-master\VOCtest\VOC2007" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="YOLOv3" type="PythonConfigurationType" factoryName="Python">
+      <module name="keras-yolo3-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0dd9f1de-d9d9-4bb1-9a1e-5d903b4de894" name="Default Changelist" comment="" />
+      <created>1585556726299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585556726299</updated>
+      <workItem from="1585556807209" duration="13000" />
+      <workItem from="1585557407848" duration="2115000" />
+      <workItem from="1585570452770" duration="694000" />
+      <workItem from="1585580881361" duration="2917000" />
+      <workItem from="1585638648076" duration="4387000" />
+      <workItem from="1585649962953" duration="1961000" />
+      <workItem from="1585700853576" duration="4728000" />
+      <workItem from="1585813730406" duration="55212000" />
+      <workItem from="1586225911634" duration="15405000" />
+      <workItem from="1586304263278" duration="2820000" />
+      <workItem from="1586486086590" duration="8499000" />
+      <workItem from="1586608990284" duration="8163000" />
+      <workItem from="1586709547961" duration="4334000" />
+      <workItem from="1586792657845" duration="1242000" />
+      <workItem from="1587004324369" duration="914000" />
+      <workItem from="1587395467353" duration="3812000" />
+      <workItem from="1587441490821" duration="2217000" />
+      <workItem from="1587526571869" duration="12469000" />
+      <workItem from="1587637009242" duration="1319000" />
+      <workItem from="1587639146220" duration="816000" />
+      <workItem from="1588236522611" duration="1828000" />
+      <workItem from="1588399524177" duration="3003000" />
+      <workItem from="1588578463382" duration="10550000" />
+      <workItem from="1588652349253" duration="16709000" />
+      <workItem from="1588752209076" duration="16800000" />
+      <workItem from="1588863036297" duration="1977000" />
+      <workItem from="1589017020418" duration="1164000" />
+      <workItem from="1589185136154" duration="6497000" />
+      <workItem from="1589253529853" duration="13032000" />
+      <workItem from="1589336888433" duration="44000" />
+      <workItem from="1589449392307" duration="5609000" />
+      <workItem from="1589933518367" duration="11310000" />
+      <workItem from="1591085194941" duration="2804000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

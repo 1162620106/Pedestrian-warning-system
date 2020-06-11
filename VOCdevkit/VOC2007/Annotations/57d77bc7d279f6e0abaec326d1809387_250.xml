@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>57d77bc7d279f6e0abaec326d1809387_250</filename>
+	<path>C:/AIoT/Projects/keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/57d77bc7d279f6e0abaec326d1809387_250.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1155.59</xmin>
+			<ymin>590.24</ymin>
+			<xmax>1178.94</xmax>
+			<ymax>626.89</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>399.36</xmin>
+			<ymin>588.85</ymin>
+			<xmax>414.78</xmax>
+			<ymax>616.10</ymax>
+		</bndbox>
+	</object>
+</annotation>

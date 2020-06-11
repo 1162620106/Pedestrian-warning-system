@@ -1,0 +1,32 @@
+电脑摄像头实时检测，命令是python yolo_video.py --input,对应的yolo.py文件174行改为vid = cv2.VideoCapture(0)；
+跑视频，命令是python yolo_video.py --input,对应的yolo.py文件174行改为vid = cv2.VideoCapture("视频路径+视频名+视频后缀名")；
+跑视频并且保存视频，命令是python yolo_video.py --output,对应的yolo.py文件174行改为vid = cv2.VideoCapture("视频路径+视频名+视频后缀名")，184行改为out = cv2.VideoWriter("视频路径+视频名+视频后缀名", video_FourCC, video_fps, video_size)；
+检测图片的命令是 python yolo_video.py --image
+
+Google Colaboratory相关命令：
+查看CUDA版本：!nvcc --version
+查看CUDNN版本：!cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
+CUDA版本切换：
+!sudo rm -rf /usr/local/cuda
+!sudo ln -s /usr/local/cuda-10.0 /usr/local/cuda
+列出已安装的包：!pip list
+卸载某个包：!pip uninstall 包名
+安装某个包：!pip install 包名
+查看当前安装的tensorflow版本：!pip show tensorflow
+安装指定版本的tensorflow：!pip install tensorflow-gpu==1.14
+安装指定版本的Keras：!pip install Keras==2.2.5
+
+batchsize调16
+
+版本要对应，否则报错：
+tensorflow-gpu 1.14            cuda10.0(默认有，需切换)           keras2.2.5
+tensorflow 2.2(默认有)         cuda10.1(默认有)                   keras2.3.1
+
+报错：AttributeError: module 'keras.backend' has no attribute 'control_flow_ops'
+解决方法：
+修改keras/backend/__init__.py，
+在150行左右加入以下导包语句
+from tensorflow.python.ops import control_flow_ops
+或
+from .load_backend import control_flow_ops
+from .load_backend import set_image_dim_ordering
